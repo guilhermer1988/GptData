@@ -1,1 +1,1 @@
-{"resources":{"Scripts/Script-1.sql":{"default-datasource":"mysql8-18fb0bd1e7d-42aecc6ef8d0fc27","default-catalog":"gptdatadb"},"Scripts/Script.sql":{"default-datasource":"mysql8-18fb0bd1e7d-42aecc6ef8d0fc27","default-catalog":"gptdatadb"}}}
+{"resources":{"Scripts/Script-1.sql":{"default-datasource":"mysql8-18fb0bd1e7d-42aecc6ef8d0fc27","default-catalog":"gptdatadb"}}}

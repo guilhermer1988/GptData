@@ -9,11 +9,18 @@
 			"configuration": {
 				"host": "localhost",
 				"port": "3306",
-				"url": "jdbc:mysql://localhost:3306/",
+				"database": "gptdatadb",
+				"url": "jdbc:mysql://localhost:3306/gptdatadb",
 				"configurationType": "MANUAL",
 				"home": "mysql_client",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "true"
+				},
 				"auth-model": "native"
 			}
 		}
